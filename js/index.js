@@ -59,6 +59,23 @@ secondP.addEventListener('mouseup', e => {
    thirdP.style.color = 'green';
    thirdP.style.backgroundColor = 'navy';
  });
+ /////
+ //#9//
+ const childP = document.querySelectorAll('.btn');
+childP.forEach(item => {
+  item.addEventListener('click', e => {
+  item.style.color = 'coral';
+  });
+});
+/////
+//#10//
+const footerP = document.querySelector('.footer p');
+footerP.addEventListener('dblclick', e => {
+  footerP.style.color = 'gold';
+  footerP.style.fontSize = '2rem';
+  footerP.style.borderBottom = '2px solid black';
+});
+
  
 
 
