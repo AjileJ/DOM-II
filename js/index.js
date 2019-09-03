@@ -69,12 +69,16 @@ childP.forEach(item => {
 });
 /////
 //#10//
+
+
+
 const footerP = document.querySelector('.footer p');
 footerP.addEventListener('dblclick', e => {
   footerP.style.color = 'gold';
   footerP.style.fontSize = '2rem';
   footerP.style.borderBottom = '2px solid black';
 });
+
 
  
 
